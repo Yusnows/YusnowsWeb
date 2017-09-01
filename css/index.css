@@ -5,18 +5,63 @@ body
     padding: 0;
     margin: 0;
     text-align: center;
-    background: blue;
-    overflow-x: auto;
-    overflow-y: auto;
+    background: url(../image/BackGround/bg1.jpg);
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
+
+a:link { text-decoration: none;}
+a:active { text-decoration:blink}
+a:hover { text-decoration:underline;}
+a:visited { text-decoration: none;}
 
 .container
 {
-    width: 100%;
-    height: 1000px;
+    width: 50%;
+    height: 1080px;
     margin: 0 auto;
     overflow: hidden;
     overflow-x: auto;
     text-align: center;
-    background: red;
+/*    background: url(../image/BackGround/bg1.jpg);*/
+}
+
+.name
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    text-align: left;
+    float: left;
+/*    background: blue;*/
+}
+
+.indexBox
+{
+    width: 80%;
+    height: auto;
+    margin: 0;
+    margin-left: 10%;
+    float: left;
+    text-align: center;
+/*    background: red;*/
+}
+
+.index
+{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-top: 40px;
+    text-align: left;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#PersonalMsg
+{
+    margin-top: 0;
 }
